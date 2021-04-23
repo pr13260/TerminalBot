@@ -39,10 +39,10 @@ CHANGE_DIRECTORY_CTD = Config.CHANGE_DIRECTORY_CTD
 DELAY_BETWEEN_EDITS = Config.DELAY_BETWEEN_EDITS
 START_CMD_TRIGGER = Config.START_CMD_TRIGGER
 
-HELP_STICKER = "CAADAgAD6AkAAowucAABsFGHedLEzeUWBA"
+HELP_STICKER = "CAACAgUAAx0CWOqstAABAxs5YILGnZx6kHWozlHLrgSOqGtLkDAAAhgFAAKUqjhXPmqBA9E1wBMeBA"
 PROCESS_RUNNING = "processing ..."
-TERMINATE_HELP_GNIRTS = "reply to a <u>command reply</u> to terminate 😡😳😳 it"
-SIG_KILL_HELP_GNIRTS = "reply to a <u>command reply</u> to kill 😡 it"
+TERMINATE_HELP_GNIRTS = "reply to a command reply to terminate 😡😳😳 it"
+SIG_KILL_HELP_GNIRTS = "reply to command reply to kill 😡 it"
 TYPE_HELP_GNIRTS = "not specified"
 NO_CMD_RUNNING = "No command is running in that message."
 
