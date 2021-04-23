@@ -22,43 +22,49 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "3532126"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "c164e5f948c920ebce1243c22a04cbf8"
     },
     "TG_BOT_TOKEN": {
       "description": "You can create a bot using @BotFather",
-      "value": ""
+      "value": "1650908471:AAF6_uuMIyqEIdDWBZp3_DEOZnAf7psmCww"
     },
     "AUTH_USERS": {
       "description": "Space sperated IDs of users who are allowed to use the bot",
-      "value": "7351948 -1001220993104"
+      "value": "1154075796 -1001160841414"
     },
     "TG_UPDATE_WORKERS_COUNT": {
       "description": "Number of workers to use. `1` is the recommended amount see for yourself what works best!",
-      "required": false
+      "required": false,
+      "value": "1"
     },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "This is required for the plugins involving the file system.",
-      "required": false
+      "required": false,
+      "value": "tmp"
     },
     "EVAL_CMD_TRIGGER": {
       "description": "EVAL command trigger",
-      "required": false
+      "required": false,
+      "value": "/eval"
     },
     "EXEC_CMD_TRIGGER": {
       "description": "EXEC command trigger",
-      "required": false
+      "required": false,
+      "value": "/exec"
     },
     "SIG_KILL_CMD_TRIGGER": {
       "description": "KILL command trigger",
-      "required": false
+      "required": false,
+      "value": "/kill"
     },
     "TERMINATE_CMD_TRIGGER": {
       "description": "TERMINATE command trigger",
-      "required": false
+      "required": false,
+     "value": "/end"
     },
     "DELAY_BETWEEN_EDITS": {
       "description": "delay between edits, should be an integer",
@@ -66,7 +72,8 @@
     },
     "TYPE_CMD_TRIGGER": {
       "description": "TYPE command trigger",
-      "required": false
+      "required": false,
+      "value": "/enter"
     }
   },
   "addons": [],
