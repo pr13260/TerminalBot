@@ -57,10 +57,10 @@ class MessageEditor():
             text += "process exited with code {}".format(str(self.rc))
         if len(self.stdout) > 0:
             text += "\n\n" + "STDOUT:" + "\n"
-            text += "OUTPUT" + self.stdout[max(len(self.stdout) - 2048, 0):] + "END OUTPUT"
+            text += "OUTPUT" + "\n" + self.stdout[max(len(self.stdout) - 2048, 0):] + "END OUTPUT"
         if len(self.stderr) > 0:
             text += "\n\n" + "STDERR:" + "\n"
-            text += "OUTPUT ERROR" + self.stderr[max(len(self.stderr) - 1024, 0):] + "END ERROR"
+            text += "\n" + self.stderr[max(len(self.stderr) - 1024, 0):] + "\n" + "END ERROR"
         if len(self.stdin) > 0:
             text += "\n\n" + "STDiN:" + "\n"
             text += "INPUT" + self.stdin[max(len(self.stdin) - 1024, 0):] + "END INPUT"
